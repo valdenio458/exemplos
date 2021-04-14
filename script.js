@@ -271,4 +271,21 @@ function vezes(frase, letra) {
   console.log(quantidade);
   }
   vezes("Fazendo teste na Trybe","e")
-  
+ 
+/*
+  // Arrow function com mais de um parâmetro:
+  const sum = (a,b) => a * b;
+  console.log(sum(5,3));
+ 
+  // Declaração de variáveis:
+  var nome = "Paulo";
+  var nome = "Raphaela";
+  console.log(nome); // retorna Raphaela
+
+  let nome = "Paulo";
+  let nome = "Raphaela";
+  console.log(nome); // retorna Identifier 'nome' has already been declared
+*/
+  const NOME = "Paulo";
+  const NOME = "Raphaela";
+  console.log(NOME); // retorna Identifier 'NOME' has already been declared
